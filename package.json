@@ -1,0 +1,17 @@
+{
+  "name": "applied-recorder",
+  "version": "1.0.0",
+  "description": "NodeJS API that writes to a MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0"
+  }
+}
